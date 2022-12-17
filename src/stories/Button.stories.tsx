@@ -39,3 +39,12 @@ Small.args = {
   size: 'small',
   label: 'Button',
 };
+
+export const Wonder = Template.bind({});
+Wonder.args = {
+  neon: true,
+  primary: true,
+  size: 'large',
+  label: 'Wonder Text',
+  backgroundColor: '#FF805A'
+};

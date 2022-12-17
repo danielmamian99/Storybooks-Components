@@ -1,0 +1,38 @@
+.circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 9999px;
+}
+
+.cicle--small{
+    width: 2em;
+    height: 2em;
+}
+
+.cicle--medium{
+    width: 4em;
+    height: 4em;
+}
+
+.cicle--large{
+    width: 6em;
+    height: 6em;
+}
+.cicle__img {
+    display: flex;
+    justify-content: center;
+}
+
+.cicle__img--small{
+    width: 1em;
+    height: 1em;
+}
+.cicle__img--medium{
+    width: 2em;
+    height: 2em;
+}
+.cicle__img--large{
+    width: 3em;
+    height: 3em;
+}
