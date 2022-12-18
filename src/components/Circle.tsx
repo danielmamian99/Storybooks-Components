@@ -1,10 +1,10 @@
 import './circle.css'
 
-interface CicleProps {
+export interface CicleProps {
   /**
    * How large should the circle be?
    */
-  cicleSize?: "small" | "medium" | "large";
+  circleSize?: "small" | "medium" | "large";
   /**
    * What color to use
    */
@@ -24,17 +24,17 @@ interface CicleProps {
 }
 export const Circle = ({
   imageSize = "small",
-  cicleSize = "small",
+  circleSize = "small",
   backgroundColor,
   urlImage,
   altImage,
 }: CicleProps) => {
   return (
-    <div className={`circle cicle--${cicleSize}`} style={{ backgroundColor }}>
+    <div className={`circle circle--${circleSize}`} style={{ backgroundColor }} data-testid="circle">
       {urlImage && (
-        <div className={`cicle__img cicle__img--${imageSize}`}>
+        <figure className={`circle__img circle__img--${imageSize}`} data-testid="circle__img">
           <img src={`${urlImage}`} alt={`${altImage}`}></img>
-        </div>
+        </figure>
       )}
     </div>
   );

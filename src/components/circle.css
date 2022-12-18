@@ -5,34 +5,34 @@
     border-radius: 9999px;
 }
 
-.cicle--small{
+.circle--small{
     width: 2em;
     height: 2em;
 }
 
-.cicle--medium{
+.circle--medium{
     width: 4em;
     height: 4em;
 }
 
-.cicle--large{
+.circle--large{
     width: 6em;
     height: 6em;
 }
-.cicle__img {
+.circle__img {
     display: flex;
     justify-content: center;
 }
 
-.cicle__img--small{
+.circle__img--small{
     width: 1em;
     height: 1em;
 }
-.cicle__img--medium{
+.circle__img--medium{
     width: 2em;
     height: 2em;
 }
-.cicle__img--large{
+.circle__img--large{
     width: 3em;
     height: 3em;
 }
