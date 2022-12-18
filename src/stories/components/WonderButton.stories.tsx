@@ -25,7 +25,7 @@ Wonder.args = {
 
 export const Image = Template.bind({});
 Image.args = {
-  neon: true,
+  neon: false,
   size: 'large',
   label: 'Wonder Text',
   backgroundColor: '#FF805A',
