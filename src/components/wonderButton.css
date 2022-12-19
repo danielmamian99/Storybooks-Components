@@ -1,27 +1,27 @@
-.storybook-button {
+.wonder-button {
   font-weight: 700;
   cursor: pointer;
   display: inline-block;
   line-height: 1;
   border-radius: 0;
-}
-.storybook-button--border{
-  border-radius: 8px;
   border: 0;
 }
-.storybook-button--large {
+.wonder-button--border{
+  border-radius: 8px;
+}
+.wonder-button--large {
   font-size: 20px;
   padding: 14px 32px;
 }
-.storybook-button--medium {
+.wonder-button--medium {
   font-size: 18px;
   padding: 13px 28px;
 }
-.storybook-button--small {
+.wonder-button--small {
   font-size: 16px;
   padding: 12px 24px;
 }
-.storybook-button--neon {
+.wonder-button--neon {
   box-shadow: -2px 1px 14px 2px #ff805a;
 }
 .button__itern-container {

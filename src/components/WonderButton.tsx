@@ -58,17 +58,17 @@ export const WonderButton = ({
   fontColor = "white",
   ...props
 }: WonderButtonProps) => {
-  const brightness = neon ? "storybook-button--neon" : "";
+  const brightness = neon ? "wonder-button--neon" : "";
   const imageWidth = imageSize
     ? `button__itern-container__img--${imageSize}`
     : "";
-  const borderButton = border ? `storybook-button--border` : "";
+  const borderButton = border ? `wonder-button--border` : "";
   return (
     <button
       type="button"
       className={[
-        "storybook-button",
-        `storybook-button--${size}`,
+        "wonder-button",
+        `wonder-button--${size}`,
         brightness,
         borderButton,
       ].join(" ")}
